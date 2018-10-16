@@ -1,0 +1,13 @@
+{
+  "kafka":{
+    "ip": "127.0.0.1",
+    "port": 9092,
+    "topic": "t",
+    "partition": 0,
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "auth": null
+  }
+}
