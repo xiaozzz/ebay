@@ -12,7 +12,6 @@ module.exports = () => {
     //        "dimensions": {}
     //    }
     async _getMetric(contents) {
-      //TODO parseMetric
       let application = "search";
       let datacenter = "slc";
       const time = Date.getTime();

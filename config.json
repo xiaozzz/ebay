@@ -3,7 +3,6 @@
     "ip": "127.0.0.1",
     "port": 9092,
     "topic": "t",
-    "partition": 0,
   },
   "redis": {
     "host": "127.0.0.1",
@@ -12,5 +11,9 @@
   },
   "api": {
     "port": 3000
+  },
+  "worker": {
+    "kafkaNumber": 2,
+    "apiNumber": 2
   }
 }
